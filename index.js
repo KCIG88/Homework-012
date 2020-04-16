@@ -48,30 +48,38 @@ inquirer.prompt(initialPrompt)
 
 .then (function (ans) {
   if (ans.action === "Add Department") {
+
     addDepartment();
   }
   if (ans.action === "Add Role") {
+
     addRole();
   }
   if (ans.action === "Add Employee") {
+
   addEmployee();
   }
   if (ans.action === "View Department") {
+
   viewDepartment();
   }
   if (ans.action === "View Roles") {
+
   viewRoles();
   }
   if (ans.action === "View Employee") {
+
   viewEmployee();
   }
   if (ans.action === "Update Employee roles") {
+
   updateEmployeeRoles();
   }
   if (ans.action === "Nothing") {
+
     nothing();
   }
   begin();
 }
 )}
-begin();
+
